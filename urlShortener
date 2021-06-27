@@ -1,0 +1,7 @@
+import pyshorteners
+shortner = pyshorteners.Shortener()
+a=shortner.tinyurl.short("https://www.youtube.com/channel/UC-T-8GAqB2tSrn4-2DMw3ag")
+print(a)
+
+
+#Output : https://tinyurl.com/yh7qw2qe
